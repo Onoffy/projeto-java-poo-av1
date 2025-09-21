@@ -127,7 +127,8 @@ public class Concessionaria {
 
     @Override
     public String toString() {
-        return String.format("<Concessionaria: \nnome=%s \nveiculos=%s \nclientes=%s \nvendas=%s \ntotalVeiculos=%d \ntotalClientes=%d \ntotalVendas=%d>",
+        return String.format(
+                "<Concessionaria: \nnome=%s \nveiculos=%s \nclientes=%s \nvendas=%s \ntotalVeiculos=%d \ntotalClientes=%d \ntotalVendas=%d>",
                 nome, veiculos, clientes, vendas, totalVeiculos, totalClientes, totalVendas
         );
     }
