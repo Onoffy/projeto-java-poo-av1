@@ -15,7 +15,7 @@ public class Cliente {
     public String toString() {
         return String.format(
                 "<Cliente: \nnome=%s \nid=%d \ntelefone=%s \ne-mail=%s>",
-                nome, id, telefone, email
+                this.nome, this.id, this.telefone, this.email
         );
     }
 }
